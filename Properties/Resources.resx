@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Screen Shot 2017-12-02 at 8.14.29 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-02 at 8.14.29 AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rick.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coollogo_com-784218" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-784218.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.38.57 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.38.57 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hipster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hipster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BoyZombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BoyZombie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glenn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glenn.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-02 at 12.24.54 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-02 at 12.24.54 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GirlZombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GirlZombie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-01 at 2.20.05 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-01 at 2.20.05 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.16.38 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.16.38 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieHead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZombieHead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.39.22 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.39.22 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DudeZombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DudeZombie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.16.33 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.16.33 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-02 at 12.25.02 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-02 at 12.25.02 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.37.56 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.37.56 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Negan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Negan.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rick1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rick1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-02 at 12.16.50 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-02 at 12.16.50 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TWDTITLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TWDTITLE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.16.23 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.16.23 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewestIntroVideo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewestIntroVideo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-02 at 8.15.19 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-02 at 8.15.19 AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coollogo_com-16728473" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-16728473.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-01 at 2.19.59 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-01 at 2.19.59 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-02 at 12.25.06 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-02 at 12.25.06 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.16.28 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.16.28 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.37.44 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.37.44 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.381" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.38.42 PM1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.16.23 PM1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.38.42 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.38.42 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brains" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brains.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-02 at 8.13.53 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-02 at 8.13.53 AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-01 at 2.20.10 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-01 at 2.20.10 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coollogo_com-209821149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-209821149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Daryle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Daryle.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.39.32 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.39.32 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.37.17 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.37.17 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-02 at 12.16.38 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-02 at 12.16.38 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-02 at 8.15.04 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-02 at 8.15.04 AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="screen-shot-2017-07-22-at-12-41-03-am-e1500704141223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\screen-shot-2017-07-22-at-12-41-03-am-e1500704141223.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-02 at 8.17.22 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-02 at 8.17.22 AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screen Shot 2017-12-03 at 4.38.19 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screen Shot 2017-12-03 at 4.38.19 PM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
